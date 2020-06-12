@@ -1,0 +1,6 @@
+export * from './rook'
+export * from './knight'
+export * from './bishop'
+export * from './king'
+export * from './queen'
+export * from './pawn'

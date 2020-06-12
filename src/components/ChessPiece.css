@@ -1,0 +1,15 @@
+.ChessPiece {
+	font-size: calc(100vh / 8);
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.ChessPiece[data-color="black"] {
+	color: black;
+	-webkit-text-stroke: 1px white;
+}
+
+.ChessPiece[data-color="white"] {
+	color: white;
+	-webkit-text-stroke: 1px black;
+}

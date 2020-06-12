@@ -1,0 +1,27 @@
+.ChessBoard {
+	margin: auto;
+	width: 100vh;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.ChessBoard .row {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.ChessBoard .tile {
+	flex: 1;
+	text-align: center;
+	height: 100%;
+	line-height: 100%;
+}
+
+.ChessBoard .tile[data-color="black"] {
+	background-color: #333;
+}
+.ChessBoard .tile[data-color="white"] {
+	background-color: #ccc;
+}
